@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrustEdge Reality</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <ion-icon name="business-outline"></ion-icon> TrustEdge Reality
+      </a>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#sel" class="navbar-link" data-nav-link>Buy</a>
+          </li>
+
+          <li>
+            <a href="#sel" class="navbar-link" data-nav-link>Sell</a>
+          </li>
+
+          <li>
+            <a href="#lis" class="navbar-link" data-nav-link>Listing</a>
+          </li>
+
+          <li>
+            <a href="#abs" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li>
+            <a href="#fot" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="#" class="btn btn-secondary">Signup</a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-hidden="true" class="close-icon"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article class="article">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-bg">
+            <div class="hero-content">
+
+              <h1 class="h1 hero-title">
+                Welcome to our TrustEdge Reality, <span class="span"> where you can make your dream property </span> a
+                reality!
+              </h1>
+
+              <p class="hero-text">
+                A great plateform to buy, sell and rent your properties without any agent or commisions.
+              </p>
+
+            </div>
+          </div>
+
+          <div id="sel" class="hero-form-wrapper">
+            <div class="form-tab">
+
+              <button class="tab-btn active" data-tab-btn>Buy</button>
+              <button class="tab-btn" data-tab-btn>Sell</button>
+              <button class="tab-btn" data-tab-btn>Rent</button>
+
+            </div>
+
+            <form action="" class="hero-form">
+
+              <div class="input-wrapper">
+
+                <label for="search" class="input-label">Search : *</label>
+
+                <input type="search" name="search" id="search" placeholder="Search your home" required
+                  class="input-field">
+
+                <ion-icon name="search-outline"></ion-icon>
+
+              </div>
+
+              <div class="input-wrapper">
+                <label for="category" class="input-label">Select Categories:</label>
+
+                <select name="category" id="category" class="dropdown-list">
+
+                  <option value="house">House</option>
+                  <option value="apartment">Apartment</option>
+                  <option value="offices">Offices</option>
+                  <option value="townhome">Townhome</option>
+
+                </select>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="min-price" class="input-label">Min Price :</label>
+
+                <select name="min-price" id="min-price" class="dropdown-list">
+
+                  <option value="min price">Min Price</option>
+                  <option value="500">500</option>
+                  <option value="1000">1000</option>
+                  <option value="2000">2000</option>
+                  <option value="3000">3000</option>
+                  <option value="4000">4000</option>
+                  <option value="5000">5000</option>
+                  <option value="6000">6000</option>
+
+                </select>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="max-price" class="input-label">Max Price :</label>
+
+                <select name="max-price" id="max-price" class="dropdown-list">
+
+                  <option value="max price">Max Price</option>
+                  <option value="500">500</option>
+                  <option value="1000">1000</option>
+                  <option value="2000">2000</option>
+                  <option value="3000">3000</option>
+                  <option value="4000">4000</option>
+                  <option value="5000">5000</option>
+                  <option value="6000">6000</option>
+
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Search now</button>
+
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section aria-label="about">
+        <div class="container">
+
+          <!-- <div class="about-banner img-holder" style="--width: 600; --height: 700;">
+            <img src="./assets/images/about-banner.jpg" width="600" height="700" loading="lazy" alt="about banner"
+              class="img-cover">
+
+            <button class="play-btn" aria-label="play video">
+              <ion-icon name="play" aria-hidden="true"></ion-icon>
+            </button>
+          </div> -->
+
+
+          <div class="about-content">
+
+            <!-- <h2 class="h2 section-title">Efficiency. Transparency. Control.</h2> -->
+
+            <p style="line-height: 1.6;">Welcome to our TrustEdge Reality, where you can make your dream property a
+              reality!
+
+              Our objective is to deliver great real estate services that are tailored to your specific requirements and
+              preferences. We are here to help you every step of the way, whether you are buying, selling, or investing.
+              Our user-friendly website is intended to assist you in exploring a diverse choice of properties, learning
+              about our firm, and discovering the many services we provide. Let's go on a journey together to locate
+              your ideal house!
+
+              The world of real estate is undergoing a seismic shift, driven by technological advancements, changing
+              consumer preferences, and an evolving global landscape. As traditional models are challenged, a new and
+              innovative brand has emerged to reshape the industry's narrative. In this comprehensive exploration, we
+              delve into the core ethos, values, strategies and impact of this newly emerging real estate brand that is
+              poised to revolutionize the way we think about property transactions, community development, and
+              sustainable living.
+
+              We believe that choosing the best home is more than just a job. This is the path to the future you want.
+              We are proud to contribute to the new era of real estate with our commitment to innovation, transparency
+              and personal service. Our business is more than just buying and selling houses; one property at a time.
+
+              Discover a wide choice of excellent residences to suit every lifestyle and desire. We create offerings
+              that speak to your specific aspirations, from cosy city flats to opulent countryside estates. Our seasoned
+              real estate agents bring extensive market expertise and local understanding to the table. We are here to
+              help you every step of the journey, whether you're a first-time buyer or a seasoned investor. We realize
+              that your path is unique. That's why we give priority to customization by providing solutions that fit
+              your needs. Our representatives will take the time to understand your needs so you can make an informed
+              choice. Our company facilitates the real estate process by using the latest technological innovations.
+              Navigating the real estate market can be overwhelming, but with our firm by your side, you are in capable
+              hands. We utilise the power of user-friendly interfaces and powerful search capabilities to create a
+              smooth property research trip in a world driven by digital interactions. Users may quickly filter homes by
+              location, size, amenities, and budget. The user-friendly interface allows customers to effectively examine
+              the huge database of properties, saving time and energy in the process. We provide a dynamic platform for
+              sellers to promote their homes in the best possible light. Sellers may easily attract the attention of
+              potential buyers with detailed property listings that include high-resolution pictures, correct floor
+              plans, and compelling descriptions. The platform's simple listing creation process ensures that even
+              individuals inexperienced with technology may promote their properties online with ease. In a business
+              where information is critical, we use data to empower both buyers and sellers. The platform combines
+              real-time market data, historical price patterns, and neighbourhood insights to provide users with a
+              thorough picture of market dynamics. This plethora of information provides buyers and sellers with the
+              knowledge they need to make sound judgements. We recognise the importance of security and trust in the
+              digital arena and apply strong security measures to maintain a secure environment for all users. Secure
+              data encryption, identity verification protocols, and open user evaluations all contribute to the
+              confidence and dependability required for successful real estate transactions.
+
+              One of our distinguishing qualities is our emphasis on immersive property visualisations. Potential buyers
+              may virtually step into houses from the comfort of their own homes thanks to high-quality pictures,
+              360-degree virtual tours, and even augmented reality experiences. This tool goes beyond the restrictions
+              of static photographs by allowing buyers to get a sense of the genuine essence of a home before organising
+              a physical visit.
+
+              Step into a world of elegance and sophistication as we present a curated collection of the finest
+              properties on the market. From luxurious penthouses with panoramic city views to serene countryside
+              estates, our portfolio is as diverse as your preferences. Your desires are at the forefront of everything
+              we do. Our team of seasoned real estate professionals takes the time to understand your unique needs,
+              ensuring that every property recommendation aligns with your vision of the perfect home. Our commitment to
+              excellence extends to the smooth handling of transactions. With meticulous attention to detail, we manage
+              every aspect of the buying and selling process, making your experience efficient and hassle-free. We
+              prioritize building lasting relationships. Our clients are more than just transactions – they're valued
+              members of our community. We take pride in being your trusted advisors for all your real estate needs. The
+              story of us is not just about bricks and mortar; it's a tale of visionaries, innovation, and the
+              determination to make a positive impact on the world. As the brand continues to write its chapters, it
+              invites individuals, communities, and industries to join hands in shaping a future where real estate is a
+              catalyst for positive change.
+
+              We stand as a trusted partner devoted to making your aspirations a reality in the enormous terrain of real
+              estate. Remember that each click puts you one step closer to the house or property you've always wanted as
+              you browse our home page, read about our beliefs in the "About Us" section, view our complete services,
+              and contact out through the "Contact Us" page.
+
+              Embrace our Real Estate experience, where real estate transcends the mundane and transforms into a journey
+              of finding possibilities, realising ambitions, and creating a future that is distinctly yours.
+
+              Join us at our Real Estate company, where your journey to find the perfect home begins. Explore our
+              listings, connect with our agents and embark on a new chapter of your life filled with comfort, style, and
+              limitless possibilities.
+
+            </p>
+
+            <a href="#" class="btn btn-primary">Learn More</a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner img-holder" style="--width: 600; --height: 700;">
+            <img src="./assets/images/interior.jpg" width="600" height="700" loading="lazy" alt="about banner"
+              class="img-cover">
+
+            <button class="play-btn" aria-label="play video">
+              <ion-icon name="play" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+
+          <div id="abs" class="about-content">
+
+            <h2 class="h2 section-title">ABOUT US</h2>
+
+            <p class="section-text"><b>Our Vision:</b> To be the industry's premier real estate agency in terms of great
+              service, innovation, and customer pleasure.
+              <br><br>
+              <b> Our mission </b>is to help customers make educated real estate decisions by delivering professional
+              advice, personalised solutions, and unrivalled customer service.
+              <br><br>
+              Our firm is an independent real estate consultancy with a presence throughout India. It wasn't born
+              overnight; it sprouted from the minds of visionary entrepreneurs who recognized the need for a fresh
+              approach to real estate. The founders' journey from identifying market gaps to conceptualizing a brand
+              centered on innovation, sustainability, and customer-centricity lays the foundation for a compelling
+              narrative. We have extensive expertise and understanding of Indian real estate and want to be your first
+              point of call if you are looking to buy a residential property in India. We specialise in offering
+              comprehensive solutions for all aspects of residential and commercial property buying and investment. Our
+              corporate professionalism, seasoned marketing approach, and knowledge in the corporate real estate sector
+              are unparalleled and highly valued by other market participants. We understand that finding your perfect
+              home is more than just a transaction; it's about fulfilling your aspirations and creating a heaven where
+              you can truly thrive. As a premier real estate brand, we are committed to providing you with unparalleled
+              service, expert guidance, and an exceptional experience every step of the way. We believe that a home is
+              more than just a physical space; it's a reflection of your aspirations, your style, and your dreams. We
+              help you find your ideal home, whether it is your first step onto the property ladder, a strategic
+              investment, or a luxurious retreat. Our vision is to create a real estate brand that seamlessly combines
+              cutting-edge technology with the warmth of human touch, crafting exceptional living environments that
+              elevate your lifestyle.
+
+
+            </p>
+
+            <a href="#" class="btn btn-primary">Learn More</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+
+      -->
+
+
+      <section class="section service" aria-label="service">
+        <div class="container">
+
+          <h2 class="h2 section-title" style="max-width: 100vw; background-color: hsl(0, 100%, 50%); color: white;">Why
+            You Should Choose Us</h2>
+          <br>
+          <!-- <p class="section-text">
+            A great plateform to buy, sell and rent your properties without any agent or commisions.
+          </p> -->
+
+          <ul class="service-list">
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">1. Expertise: </h3>
+
+                <p class="card-text">
+                  Our team of seasoned experts brings a varied set of skills to the table, guaranteeing that we can
+                  manage all areas of real estate transactions with precision and effectiveness.
+                </p>
+
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">2. Personalised Approach: </h3>
+
+                <p class="card-text">
+                  We recognise that each customer has distinct demands and preferences. Our personalised approach
+                  enables us to adjust our services to your unique needs, providing a smooth and satisfying encounter.
+                </p>
+
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">3. Market Knowledge: </h3>
+
+                <p class="card-text">
+                  It is critical to keep up with the ever-changing real estate market. To offer you with reliable and
+                  up-to-date information, our professionals remain current on the newest trends, market situations, and
+                  legislation.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">4. Transparency: </h3>
+
+                <p class="card-text">
+                  We believe in straightforward communication. We keep you updated on every stage of the procedure,
+                  offering comprehensive explanations and addressing all of your questions.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">5. Client Satisfaction: </h3>
+
+                <p class="card-text">
+                  Our success is judged by our clients' satisfaction. We are proud of our track record of satisfied
+                  clients who have met their real estate objectives with our support.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">6.End-to-End Solutions: </h3>
+
+                <p class="card-text">
+                  From property search to post-purchase services, we provide a full suite of real estate services.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+          <br><br>
+          <p style="line-height: 1.6;">
+            More than just a real estate brand, we envision and create vibrant, sustainable communities. By prioritizing
+            eco-friendly designs, green spaces, and smart infrastructure, our brand is redefining modern living.
+            Trust is at the core of our values. We uphold the highest standards of transparency and integrity in every
+            interaction, ensuring that your interests are safeguarded at all times. From the initial consultation to the
+            final paperwork, we can be your partner every step of the way. Our comprehensive support system ensures a
+            seamless and stress-free property acquisition process. We can be your partner in every step of the journey,
+            from the initial consultation to the final documentation. Our complete assistance system assures a smooth
+            and stress-free home purchase.
+
+            Sustainability isn't just a buzzword for us; it's a core value that shapes every facet of its operations.
+            From energy-efficient construction to carbon-neutral practices, this chapter examines how the brand
+            integrates sustainability into its business model and contributes to a greener future.
+
+            Imagine waking up to breathtaking views, embracing the tranquility of nature, and indulging in the comforts
+            of modern living. We curate an extensive selection of properties that cater to every taste and desire. From
+            urban chic apartments to serene countryside retreats, we have got your dream home waiting just around the
+            corner. We believe that informed customers make better decisions. Through educational initiatives,
+            personalized consultations, and market insights, the brand empowers buyers and sellers to navigate the
+            complex real estate landscape with confidence.
+
+            Continuing our legacy of exceptional service, we achieve new benchmarks with each effort. Driven by our
+            philosophy of Commitment, Honesty, and Reliability, we strive to uncover the finest available prospects for
+            our customers and support them in making sound and responsible decisions.
+
+          </p>
+
+        </div>
+      </section>
+
+      <section class="section service" aria-label="service">
+        <div class="container">
+
+          <div style="max-width: 100vw; background-color: hsl(0, 100%, 50%); ">
+            <h2 id="ser" class="h2 section-title" style="color: white;">SERVICES</h2>
+          </div>
+          <div>
+            <p style="line-height: 1.6;">
+              <br>
+              The real estate industry plays a pivotal role in shaping the economic landscape of a nation. Its
+              multifaceted nature encompasses various sectors, including residential, commercial, industrial, and
+              agricultural properties. Within this complex ecosystem, real estate companies assume a vital role as
+              intermediaries, facilitating the seamless transaction of properties and services. <br>
+
+              Let us guide you through the process of finding and securing your dream home. Our agents are your
+              partners, dedicated to understanding your needs and making the experience enjoyable and rewarding. We
+              provide land consultancy, residential, and commercial property management services. <br>
+
+              We provide a complete variety of real estate services to meet the needs of a diverse client base. We have
+              the knowledge to help you through the process seamlessly, whether you are a first-time purchaser, a
+              seasoned investor, or someone trying to sell their property.
+
+            </p>
+          </div>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">1. Buyer Assistance:</h3>
+
+                <p class="card-text">
+                  <b> Property Search:</b> Our user-friendly website allows you to search through a large number of
+                  homes, filter by your interests, and discover the ideal fit for your requirements. <br>
+
+                  <b> Expert Advice: </b>Our knowledgeable real estate agents are committed to knowing your needs and
+                  assisting you through the property search, negotiating, and purchase process. <br>
+
+                  <b> Investment Opportunities:</b> For individuals interested in investing in real estate, we give
+                  insights on possible investment properties, allowing you to make educated judgements. <br>
+
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="briefcase-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">2. Services Offered by the Seller:</h3>
+
+                <p class="card-text">
+                  <b> Property Valuation: </b>Our professionals evaluate the market worth of your property and offer
+                  competitive pricing tactics to attract potential purchasers. <br>
+
+                  <b>Marketing Excellence:</b> We use cutting-edge marketing strategies to highlight your property's
+                  greatest characteristics, reaching a large audience and increasing exposure. <br>
+
+                  <b>Negotiation Skills:</b> Our professional negotiators work hard to get you the best deal possible,
+                  assuring a seamless transaction from start to finish.
+
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="key"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">3. Property Administration:</h3>
+
+                <p class="card-text">
+                <b> Hassle-Free Management: </b>Our management services handle everything from tenant screening to rent
+                  collection, maintenance, and tenant complaints for property owners. <br>
+
+                <b> Investment Optimisation:</b>Our objective is to maximise the earnings on your investment properties by
+                  keeping them in good condition and guaranteeing high occupancy rates.
+
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+          <br><br><br>
+          <div>
+            <p style="line-height: 1.6;">Interested in investing in real estate? Our data-driven insights and strategic
+              counsel assist you in making good investment decisions that are in line with your financial objectives.
+              <br>
+
+              We have emerged as a beacon of innovation and quality in an industry that feeds on development. With a
+              mission that goes beyond real estate, the brand is redefining luxury, pushing the frontiers of innovation,
+              and connecting communities in previously unseen ways. We stand as a tribute to the power of vision,
+              devotion, and a commitment to creating the future of real estate as they continue on their journey to
+              success. <br>
+
+              We emerge as a game-changer in the real estate market in a world where ease, efficiency, and innovation
+              are highly appreciated. The platform alters the way properties are discovered, advertised, and transacted
+              by merging cutting-edge technology with user-centric design. We are at the vanguard of a real estate
+              revolution, ushering in a new age of property discovery and transactions, with our immersive
+              visualisations, data-driven insights, and devotion to customer pleasure. As the digital landscape evolves,
+              we pave the way for a future in which real estate is experienced and enjoyed rather than merely purchased
+              and sold. <br>
+
+              We are not simply in the business of buying and selling houses; we are also in the business of making
+              dreams come true. Our dedication to quality, personalised approach, and complete services distinguish us
+              as a prominent real estate firm. We are here to help you every step of the way, whether you are looking
+              for your ideal house, looking for investment possibilities, or selling a property. Join us in customising
+              your real estate experience and let's make your dreams a reality. Welcome to our Real Estate firm, the
+              place where your future begins!
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROPERTY
+      -->
+
+      <section id="lis" class="section property" aria-label="property">
+        <div class="container">
+
+          <h2 class="h2 section-title" style="max-width: 100vw; background-color: hsl(0, 100%, 50%); color: white;">
+            Featured Properties</h2>
+
+          <p class="section-text">
+            A great plateform to buy, sell and rent your properties without any agent or commisions.
+          </p>
+
+          <ul class="property-list">
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                  <img src="./assets/images/property-1.jpg" width="800" height="533" loading="lazy"
+                    alt="10765 Hillshire Ave, Baton Rouge, LA 70810, USA" class="img-cover">
+                </figure>
+
+                <button class="card-action-btn" aria-label="add to favourite">
+                  <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">10765 Hillshire Ave, Baton Rouge, LA 70810, USA</a>
+                  </h3>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">8000sqf</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="bed-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4 Beds</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="man-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4 Baths</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-meta">
+
+                    <div>
+                      <span class="meta-title">Price</span>
+
+                      <span class="meta-text">&#8377;40 Lacs</span>
+                    </div>
+
+                    <div>
+                      <span class="meta-title">Rating</span>
+
+                      <span class="meta-text">
+
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                        </div>
+
+                        <span>5.0(30)</span>
+
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                  <img src="./assets/images/property-2.jpg" width="800" height="533" loading="lazy"
+                    alt="59345 STONEWALL DR, Plaquemine, LA 70764, USA" class="img-cover">
+                </figure>
+
+                <button class="card-action-btn" aria-label="add to favourite">
+                  <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">59345 STONEWALL DR, Plaquemine, LA 70764, USA</a>
+                  </h3>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">8000sqf</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="bed-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4 Beds</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="man-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4 Baths</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-meta">
+
+                    <div>
+                      <span class="meta-title">Price</span>
+
+                      <span class="meta-text">&#8377;50 Lacs</span>
+                    </div>
+
+                    <div>
+                      <span class="meta-title">Rating</span>
+
+                      <span class="meta-text">
+
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                        </div>
+
+                        <span>5.0(30)</span>
+
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                  <img src="./assets/images/property-3.jpg" width="800" height="533" loading="lazy"
+                    alt="3723 SANDBAR DR, Addis, LA 70710, USA" class="img-cover">
+                </figure>
+
+                <button class="card-action-btn" aria-label="add to favourite">
+                  <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">3723 SANDBAR DR, Addis, LA 70710, USA</a>
+                  </h3>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">8000sqf</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="bed-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4 Beds</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="man-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4 Baths</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-meta">
+
+                    <div>
+                      <span class="meta-title">Price</span>
+
+                      <span class="meta-text">&#8377;35 Lacs</span>
+                    </div>
+
+                    <div>
+                      <span class="meta-title">Rating</span>
+
+                      <span class="meta-text">
+
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                        </div>
+
+                        <span>5.0(30)</span>
+
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                  <img src="./assets/images/property-4.jpg" width="800" height="533" loading="lazy"
+                    alt="LOT 21 ROYAL OAK DR, Prairieville, LA 70769, USA" class="img-cover">
+                </figure>
+
+                <button class="card-action-btn" aria-label="add to favourite">
+                  <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">LOT 21 ROYAL OAK DR, Prairieville, LA 70769, USA</a>
+                  </h3>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">8000sqf</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="bed-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4 Beds</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="man-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4 Baths</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-meta">
+
+                    <div>
+                      <span class="meta-title">Price</span>
+
+                      <span class="meta-text">$5000</span>
+                    </div>
+
+                    <div>
+                      <span class="meta-title">Rating</span>
+
+                      <span class="meta-text">
+
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                        </div>
+
+                        <span>5.0(30)</span>
+
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                  <img src="./assets/images/property-5.jpg" width="800" height="533" loading="lazy"
+                    alt="710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA" class="img-cover">
+                </figure>
+
+                <button class="card-action-btn" aria-label="add to favourite">
+                  <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA</a>
+                  </h3>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">8000sqf</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="bed-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4 Beds</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="man-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4 Baths</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-meta">
+
+                    <div>
+                      <span class="meta-title">Price</span>
+
+                      <span class="meta-text">&#8377;40 Lacs</span>
+                    </div>
+
+                    <div>
+                      <span class="meta-title">Rating</span>
+
+                      <span class="meta-text">
+
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                        </div>
+
+                        <span>5.0(30)</span>
+
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                  <img src="./assets/images/property-6.jpg" width="800" height="533" loading="lazy"
+                    alt="5133 MCLAIN WAY, Baton Rouge, LA 70809, USA" class="img-cover">
+                </figure>
+
+                <button class="card-action-btn" aria-label="add to favourite">
+                  <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">5133 MCLAIN WAY, Baton Rouge, LA 70809, USA</a>
+                  </h3>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">8000sqf</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="bed-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4 Beds</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="man-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4 Baths</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-meta">
+
+                    <div>
+                      <span class="meta-title">Price</span>
+
+                      <span class="meta-text">&#8377;20 Lacs</span>
+                    </div>
+
+                    <div>
+                      <span class="meta-title">Rating</span>
+
+                      <span class="meta-text">
+
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                        </div>
+
+                        <span>5.0(30)</span>
+
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">Have Question ? Get in touch!</h2>
+
+          <p class="section-text">
+            Are you ready to take next step towards your road journey with us? Then contact us today to start talking
+            about your goals. Reach out to our friendly team today. Whether by phone, email, or a visit to our office,
+            we are excited to embark on this journey with you. Your future home is closer than you think. We don't just
+            open doors; we are opening up a whole new world of possibilities. Explore, imagine and develop with us. Your
+            dream lifestyle is just a click away. Welcome to our company, Where Every Door Opens to Possibility.
+          </p>
+
+          <button class="btn btn-primary">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <a href="#fot"><span class="span">Contact us</span></a>
+          </button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <div class="wrapper">
+            <h2 class="h2 section-title">Subscribe to Newsletter!</h2>
+
+            <p class="section-text">Subscribe to get latest updates and information.</p>
+          </div>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email :" aria-label="Enter your email"
+              required class="email-field">
+
+            <button type="submit" class="btn btn-secondary">Subscribe</button>
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer id="fot" class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <ion-icon name="business-outline"></ion-icon> TrustEdge Reality
+          </a>
+
+          <p class="footer-text">
+            A great plateform to buy, sell and rent your properties without any agent or commisions.
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="#abs" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">About us</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#ser" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Services</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Pricing</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Blog</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Login</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Terms of Services</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Privacy Policy</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#lis" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Listing</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#fot" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Details</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location-outline"></ion-icon>
+
+            <address class="address">
+              Kolkata,<br>
+              Salt Lake,<br>
+              West Bengal,India
+              <a href="#" class="address-link">View on Google map</a>
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <a href="mailto:contact@example.com" class="footer-link">contact@example.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <a href="tel:+152534468854" class="footer-link">+152 534-468-854</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 TrustEdge Reality. All Right Reserved by <a href="#" class="copyright-link">TrustEdge Reality</a>.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
